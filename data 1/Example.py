@@ -1,7 +1,7 @@
 import pandas as pd
 import sklearn as sk  
 
-df = pd.read_csv("E:/Project files/suriVA/TEST DATA.csv")
+df = pd.read_csv('data 1/TEST DATA1.csv')
 y= df("logs")
 x= df.drop('Logs', axis=1)
 
